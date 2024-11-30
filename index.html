@@ -1,0 +1,149 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Entertainment Hub</title>
+    <link rel="stylesheet" href="styles.css">
+</head>
+<body>
+    <!-- Task 1: Interactive Navigation Links -->
+    <nav class="main-nav">
+        <ul>
+            <li><a href="#home">Home</a></li>
+            <li><a href="#movies">Movies</a></li>
+            <li><a href="#music">Music</a></li>
+            <li><a href="#games">Games</a></li>
+            <li><a href="#contact">Contact</a></li>
+        </ul>
+    </nav>
+
+    <!-- Hero Section -->
+    <header class="hero">
+        <h1>Welcome to Entertainment Hub</h1>
+        <p>Your one-stop destination for movies, music, and games!</p>
+    </header>
+
+    <!-- Task 2: Eye-catching Image Gallery -->
+    <section id="gallery" class="gallery">
+        <h2>Featured Content</h2>
+        <div class="gallery-grid">
+            <div class="gallery-item">
+                <img src="https://via.placeholder.com/300x400" alt="Movie Poster 1">
+                <div class="overlay">Movie Title 1</div>
+            </div>
+            <div class="gallery-item">
+                <img src="https://via.placeholder.com/300x400" alt="Movie Poster 2">
+                <div class="overlay">Movie Title 2</div>
+            </div>
+            <div class="gallery-item">
+                <img src="https://via.placeholder.com/300x400" alt="Album Cover">
+                <div class="overlay">Album Title</div>
+            </div>
+            <div class="gallery-item">
+                <img src="https://via.placeholder.com/300x400" alt="Game Screenshot">
+                <div class="overlay">Game Title</div>
+            </div>
+        </div>
+    </section>
+
+    <!-- Task 3: Dynamic Call-to-Action Buttons -->
+    <section class="cta-section">
+        <h2>Start Exploring</h2>
+        <div class="cta-buttons">
+            <button class="cta-button">Watch Now</button>
+            <button class="cta-button">Listen Here</button>
+            <button class="cta-button">Play Game</button>
+        </div>
+    </section>
+
+    <!-- Task 4: Interactive Form for User Feedback -->
+    <section id="feedback" class="feedback-section">
+        <h2>Share Your Thoughts</h2>
+        <form class="feedback-form">
+            <div class="form-group">
+                <label for="name">Name:</label>
+                <input type="text" id="name" name="name" required>
+            </div>
+            <div class="form-group">
+                <label for="email">Email:</label>
+                <input type="email" id="email" name="email" required>
+            </div>
+            <div class="form-group">
+                <label for="rating">Rating:</label>
+                <select id="rating" name="rating">
+                    <option value="5">5 - Excellent</option>
+                    <option value="4">4 - Very Good</option>
+                    <option value="3">3 - Good</option>
+                    <option value="2">2 - Fair</option>
+                    <option value="1">1 - Poor</option>
+                </select>
+            </div>
+            <div class="form-group">
+                <label for="comment">Comment:</label>
+                <textarea id="comment" name="comment" rows="4"></textarea>
+            </div>
+            <button type="submit" class="submit-button">Submit Feedback</button>
+        </form>
+    </section>
+
+    <!-- User Registration Form -->
+    <section id="register" class="register-section">
+        <h2>Create an Account</h2>
+        <form class="register-form">
+            <div class="form-group">
+                <label for="reg-name">Full Name:</label>
+                <input type="text" id="reg-name" name="reg-name" required>
+            </div>
+            <div class="form-group">
+                <label for="reg-email">Email:</label>
+                <input type="email" id="reg-email" name="reg-email" required>
+            </div>
+            <div class="form-group">
+                <label for="reg-password">Password:</label>
+                <input type="password" id="reg-password" name="reg-password" required>
+            </div>
+            <button type="submit" class="submit-button">Register</button>
+        </form>
+    </section>
+
+    <!-- Schedule Table -->
+    <section id="schedule" class="schedule-section">
+        <h2>Upcoming Events</h2>
+        <table class="schedule-table">
+            <thead>
+                <tr>
+                    <th>Date</th>
+                    <th>Event</th>
+                    <th>Category</th>
+                    <th>Time</th>
+                </tr>
+            </thead>
+            <tbody>
+                <tr>
+                    <td>June 1</td>
+                    <td>Movie Premier</td>
+                    <td>Film</td>
+                    <td>8:00 PM</td>
+                </tr>
+                <tr>
+                    <td>June 3</td>
+                    <td>Concert Live</td>
+                    <td>Music</td>
+                    <td>7:30 PM</td>
+                </tr>
+                <tr>
+                    <td>June 5</td>
+                    <td>Game Launch</td>
+                    <td>Gaming</td>
+                    <td>12:00 PM</td>
+                </tr>
+            </tbody>
+        </table>
+    </section>
+
+    <footer>
+        <p>&copy; 2024 Entertainment Hub. All rights reserved.</p>
+    </footer>
+</body>
+</html>
